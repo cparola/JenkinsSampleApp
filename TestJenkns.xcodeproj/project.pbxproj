@@ -16,44 +16,39 @@
 		DEEDBBF115D26712001E2811 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEDBBEF15D26712001E2811 /* MainStoryboard_iPhone.storyboard */; };
 		DEEDBBF415D26712001E2811 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEDBBF215D26712001E2811 /* MainStoryboard_iPad.storyboard */; };
 		DEEDBBF715D26712001E2811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEDBBF615D26712001E2811 /* ViewController.m */; };
-		DEEDBBFF15D26713001E2811 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDBBFE15D26712001E2811 /* SenTestingKit.framework */; };
-		DEEDBC0015D26713001E2811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDBBDD15D26712001E2811 /* UIKit.framework */; };
-		DEEDBC0115D26713001E2811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDBBDF15D26712001E2811 /* Foundation.framework */; };
-		DEEDBC0915D26713001E2811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEEDBC0715D26713001E2811 /* InfoPlist.strings */; };
-		DEEDBC0C15D26713001E2811 /* TestJenknsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEDBC0B15D26713001E2811 /* TestJenknsTests.m */; };
+		DEEDBC1D15D27096001E2811 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDBBFE15D26712001E2811 /* SenTestingKit.framework */; };
+		DEEDBC1E15D27096001E2811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDBBDD15D26712001E2811 /* UIKit.framework */; };
+		DEEDBC1F15D27096001E2811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEDBBDF15D26712001E2811 /* Foundation.framework */; };
+		DEEDBC2515D27096001E2811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEEDBC2315D27096001E2811 /* InfoPlist.strings */; };
+		DEEDBC2815D27096001E2811 /* TestJenksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEDBC2715D27096001E2811 /* TestJenksTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DEEDBC0215D26713001E2811 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DEEDBBD015D26712001E2811 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DEEDBBD815D26712001E2811;
-			remoteInfo = TestJenkns;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DEEDBBD915D26712001E2811 /* TestJenkns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJenkns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEDBBDD15D26712001E2811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DEEDBBDF15D26712001E2811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEEDBBE115D26712001E2811 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DEEDBBE515D26712001E2811 /* TestJenkns-Info.plist */ = {isa = PBXFileReference; path = "TestJenkns-Info.plist"; sourceTree = "<group>"; };
+		DEEDBBE515D26712001E2811 /* TestJenkns-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestJenkns-Info.plist"; sourceTree = "<group>"; };
 		DEEDBBE715D26712001E2811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEEDBBE915D26712001E2811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DEEDBBEB15D26712001E2811 /* TestJenkns-Prefix.pch */ = {isa = PBXFileReference; path = "TestJenkns-Prefix.pch"; sourceTree = "<group>"; };
-		DEEDBBEC15D26712001E2811 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		DEEDBBED15D26712001E2811 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEEDBBEB15D26712001E2811 /* TestJenkns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestJenkns-Prefix.pch"; sourceTree = "<group>"; };
+		DEEDBBEC15D26712001E2811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		DEEDBBED15D26712001E2811 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		DEEDBBF015D26712001E2811 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DEEDBBF315D26712001E2811 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DEEDBBF515D26712001E2811 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		DEEDBBF615D26712001E2811 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DEEDBBFD15D26712001E2811 /* TestJenknsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestJenknsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEDBBF515D26712001E2811 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		DEEDBBF615D26712001E2811 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		DEEDBBFE15D26712001E2811 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		DEEDBC0615D26713001E2811 /* TestJenknsTests-Info.plist */ = {isa = PBXFileReference; path = "TestJenknsTests-Info.plist"; sourceTree = "<group>"; };
+		DEEDBC0615D26713001E2811 /* TestJenknsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestJenknsTests-Info.plist"; sourceTree = "<group>"; };
 		DEEDBC0815D26713001E2811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DEEDBC0A15D26713001E2811 /* TestJenknsTests.h */ = {isa = PBXFileReference; path = TestJenknsTests.h; sourceTree = "<group>"; };
+		DEEDBC0A15D26713001E2811 /* TestJenknsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestJenknsTests.h; sourceTree = "<group>"; };
 		DEEDBC0B15D26713001E2811 /* TestJenknsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestJenknsTests.m; sourceTree = "<group>"; };
+		DEEDBC1C15D27096001E2811 /* TestJenksTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestJenksTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEDBC2215D27096001E2811 /* TestJenksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestJenksTests-Info.plist"; sourceTree = "<group>"; };
+		DEEDBC2415D27096001E2811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEEDBC2615D27096001E2811 /* TestJenksTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestJenksTests.h; sourceTree = "<group>"; };
+		DEEDBC2715D27096001E2811 /* TestJenksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestJenksTests.m; sourceTree = "<group>"; };
+		DEEDBC2915D27096001E2811 /* TestJenksTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestJenksTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,13 +62,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEEDBBF915D26712001E2811 /* Frameworks */ = {
+		DEEDBC1815D27096001E2811 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEEDBBFF15D26713001E2811 /* SenTestingKit.framework in Frameworks */,
-				DEEDBC0015D26713001E2811 /* UIKit.framework in Frameworks */,
-				DEEDBC0115D26713001E2811 /* Foundation.framework in Frameworks */,
+				DEEDBC1D15D27096001E2811 /* SenTestingKit.framework in Frameworks */,
+				DEEDBC1E15D27096001E2811 /* UIKit.framework in Frameworks */,
+				DEEDBC1F15D27096001E2811 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +80,7 @@
 			children = (
 				DEEDBBE315D26712001E2811 /* TestJenkns */,
 				DEEDBC0415D26713001E2811 /* TestJenknsTests */,
+				DEEDBC2015D27096001E2811 /* TestJenksTests */,
 				DEEDBBDC15D26712001E2811 /* Frameworks */,
 				DEEDBBDA15D26712001E2811 /* Products */,
 			);
@@ -94,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				DEEDBBD915D26712001E2811 /* TestJenkns.app */,
-				DEEDBBFD15D26712001E2811 /* TestJenknsTests.octest */,
+				DEEDBC1C15D27096001E2811 /* TestJenksTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,12 +109,8 @@
 		DEEDBBE315D26712001E2811 /* TestJenkns */ = {
 			isa = PBXGroup;
 			children = (
-				DEEDBBEC15D26712001E2811 /* AppDelegate.h */,
-				DEEDBBED15D26712001E2811 /* AppDelegate.m */,
-				DEEDBBEF15D26712001E2811 /* MainStoryboard_iPhone.storyboard */,
-				DEEDBBF215D26712001E2811 /* MainStoryboard_iPad.storyboard */,
-				DEEDBBF515D26712001E2811 /* ViewController.h */,
-				DEEDBBF615D26712001E2811 /* ViewController.m */,
+				DEEDBC1615D2686F001E2811 /* Ressources */,
+				DEEDBC1515D26793001E2811 /* Classes */,
 				DEEDBBE415D26712001E2811 /* Supporting Files */,
 			);
 			path = TestJenkns;
@@ -154,6 +146,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DEEDBC1515D26793001E2811 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDBBEC15D26712001E2811 /* AppDelegate.h */,
+				DEEDBBED15D26712001E2811 /* AppDelegate.m */,
+				DEEDBBEF15D26712001E2811 /* MainStoryboard_iPhone.storyboard */,
+				DEEDBBF215D26712001E2811 /* MainStoryboard_iPad.storyboard */,
+				DEEDBBF515D26712001E2811 /* ViewController.h */,
+				DEEDBBF615D26712001E2811 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DEEDBC1615D2686F001E2811 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		DEEDBC2015D27096001E2811 /* TestJenksTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDBC2615D27096001E2811 /* TestJenksTests.h */,
+				DEEDBC2715D27096001E2811 /* TestJenksTests.m */,
+				DEEDBC2115D27096001E2811 /* Supporting Files */,
+			);
+			path = TestJenksTests;
+			sourceTree = "<group>";
+		};
+		DEEDBC2115D27096001E2811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDBC2215D27096001E2811 /* TestJenksTests-Info.plist */,
+				DEEDBC2315D27096001E2811 /* InfoPlist.strings */,
+				DEEDBC2915D27096001E2811 /* TestJenksTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,23 +206,22 @@
 			productReference = DEEDBBD915D26712001E2811 /* TestJenkns.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DEEDBBFC15D26712001E2811 /* TestJenknsTests */ = {
+		DEEDBC1B15D27096001E2811 /* TestJenksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEEDBC1215D26713001E2811 /* Build configuration list for PBXNativeTarget "TestJenknsTests" */;
+			buildConfigurationList = DEEDBC2A15D27096001E2811 /* Build configuration list for PBXNativeTarget "TestJenksTests" */;
 			buildPhases = (
-				DEEDBBF815D26712001E2811 /* Sources */,
-				DEEDBBF915D26712001E2811 /* Frameworks */,
-				DEEDBBFA15D26712001E2811 /* Resources */,
-				DEEDBBFB15D26712001E2811 /* ShellScript */,
+				DEEDBC1715D27096001E2811 /* Sources */,
+				DEEDBC1815D27096001E2811 /* Frameworks */,
+				DEEDBC1915D27096001E2811 /* Resources */,
+				DEEDBC1A15D27096001E2811 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEEDBC0315D26713001E2811 /* PBXTargetDependency */,
 			);
-			name = TestJenknsTests;
-			productName = TestJenknsTests;
-			productReference = DEEDBBFD15D26712001E2811 /* TestJenknsTests.octest */;
+			name = TestJenksTests;
+			productName = TestJenksTests;
+			productReference = DEEDBC1C15D27096001E2811 /* TestJenksTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +245,7 @@
 			projectRoot = "";
 			targets = (
 				DEEDBBD815D26712001E2811 /* TestJenkns */,
-				DEEDBBFC15D26712001E2811 /* TestJenknsTests */,
+				DEEDBC1B15D27096001E2811 /* TestJenksTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,18 +261,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEEDBBFA15D26712001E2811 /* Resources */ = {
+		DEEDBC1915D27096001E2811 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEEDBC0915D26713001E2811 /* InfoPlist.strings in Resources */,
+				DEEDBC2515D27096001E2811 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DEEDBBFB15D26712001E2811 /* ShellScript */ = {
+		DEEDBC1A15D27096001E2811 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,23 +298,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEEDBBF815D26712001E2811 /* Sources */ = {
+		DEEDBC1715D27096001E2811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEEDBC0C15D26713001E2811 /* TestJenknsTests.m in Sources */,
+				DEEDBC2815D27096001E2811 /* TestJenksTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DEEDBC0315D26713001E2811 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DEEDBBD815D26712001E2811 /* TestJenkns */;
-			targetProxy = DEEDBC0215D26713001E2811 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DEEDBBE615D26712001E2811 /* InfoPlist.strings */ = {
@@ -300,6 +323,7 @@
 				DEEDBBF015D26712001E2811 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DEEDBBF215D26712001E2811 /* MainStoryboard_iPad.storyboard */ = {
@@ -308,12 +332,21 @@
 				DEEDBBF315D26712001E2811 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DEEDBC0715D26713001E2811 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DEEDBC0815D26713001E2811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEEDBC2315D27096001E2811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEDBC2415D27096001E2811 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -327,6 +360,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -342,6 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -353,6 +388,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -362,6 +398,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -390,36 +427,32 @@
 			};
 			name = Release;
 		};
-		DEEDBC1315D26713001E2811 /* Debug */ = {
+		DEEDBC2B15D27096001E2811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestJenkns.app/TestJenkns";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestJenkns/TestJenkns-Prefix.pch";
-				INFOPLIST_FILE = "TestJenknsTests/TestJenknsTests-Info.plist";
+				GCC_PREFIX_HEADER = "TestJenksTests/TestJenksTests-Prefix.pch";
+				INFOPLIST_FILE = "TestJenksTests/TestJenksTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		DEEDBC1415D26713001E2811 /* Release */ = {
+		DEEDBC2C15D27096001E2811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestJenkns.app/TestJenkns";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestJenkns/TestJenkns-Prefix.pch";
-				INFOPLIST_FILE = "TestJenknsTests/TestJenknsTests-Info.plist";
+				GCC_PREFIX_HEADER = "TestJenksTests/TestJenksTests-Prefix.pch";
+				INFOPLIST_FILE = "TestJenksTests/TestJenksTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -444,11 +477,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		DEEDBC1215D26713001E2811 /* Build configuration list for PBXNativeTarget "TestJenknsTests" */ = {
+		DEEDBC2A15D27096001E2811 /* Build configuration list for PBXNativeTarget "TestJenksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEEDBC1315D26713001E2811 /* Debug */,
-				DEEDBC1415D26713001E2811 /* Release */,
+				DEEDBC2B15D27096001E2811 /* Debug */,
+				DEEDBC2C15D27096001E2811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

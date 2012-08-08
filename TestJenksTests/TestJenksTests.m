@@ -1,14 +1,14 @@
 //
-//  TestJenknsTests.m
-//  TestJenknsTests
+//  TestJenksTests.m
+//  TestJenksTests
 //
 //  Created by Christopher PAROLA on 08/08/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "TestJenknsTests.h"
+#import "TestJenksTests.h"
 
-@implementation TestJenknsTests
+@implementation TestJenksTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STAssertTrue(true, true);
+    STFail(@"Unit tests are not implemented yet in TestJenksTests");
 }
 
 @end
